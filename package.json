@@ -1,0 +1,45 @@
+{
+    "name": "Twin-Vod",
+    "date": "2017.10.19",
+    "version": "1.1.2",
+    "description": "The first Russian free video provider with a licensed full-length content.",
+    "author": {
+        "name": "StalkerApps"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/georginik31144/twin-vod"
+    },
+    "config": {
+        "type": "app",
+        "category": "apps",
+        "backgroundColor": "#e60040",
+        "name": "Ivi",
+        "legacy": true,
+        "description": "The first Russian free video provider with a licensed full-length content.",
+        "icons": {
+            "paths": {
+                "480": "img/480/",
+                "576": "img/576/",
+                "720": "img/720/",
+                "1080": "img/1080/"
+            },
+            "states": {
+                "normal": "normal.png",
+                "active": "active.png"
+            }
+        },
+        "options": [
+            {
+                "name": "partner",
+                "desc": "partner server url"
+            }
+        ]
+    },
+    "options": [
+        {
+            "name": "partner",
+            "desc": "partner server url"
+        }
+    ]
+}
